@@ -301,6 +301,7 @@ body {
 }
 
 .gallery-grid img {
+  display: grid;
   width: 100%;
   height: 240px;
   object-fit: cover;
@@ -310,6 +311,7 @@ body {
 }
 
 .gallery-grid img:hover {
+  display: grid;
   transform: scale(1.03);
   box-shadow: var(--shadow-md);
 }
