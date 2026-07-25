@@ -303,7 +303,7 @@ body {
 .gallery-grid img {
   display: grid;
   width: 100%;
-  height: 240px;
+  height: 320px;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: var(--shadow-sm);
@@ -312,13 +312,14 @@ body {
 
 .gallery-grid img:hover {
   width: 100%;
-  height: 240px;
+  height: 320px;
   transform: scale(1.03);
   box-shadow: var(--shadow-md);
 }
 
 
 .contact-grid {            
+  display: grid;
   grid-template-columns: 3fr 2fr;
   gap: 2.5rem;
   margin-top: 2rem;
